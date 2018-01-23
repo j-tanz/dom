@@ -41,13 +41,8 @@ var $ = function(sel){
           }
         }
     }
-        console.log(className);
-    }
-
-
+   
     //toggleClass
-    
-
     var publicAPI = {
         element: elem,
         text: text,
@@ -58,3 +53,4 @@ var $ = function(sel){
     }
         return publicAPI;
     
+}
